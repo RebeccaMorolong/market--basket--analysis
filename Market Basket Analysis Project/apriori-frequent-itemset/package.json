@@ -1,0 +1,30 @@
+{
+  "name": "apriori-frequent-itemset",
+  "version": "1.0.0",
+  "description": "A project implementing the Apriori algorithm for frequent itemset mining.",
+  "main": "src/apriori.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/apriori.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "ts-node": "^10.0.0",
+    "nodemon": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/apriori-frequent-itemset.git"
+  },
+  "keywords": [
+    "apriori",
+    "frequent itemset mining",
+    "data mining",
+    "association rules"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
